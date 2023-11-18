@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Index2</title>
+</head>
+<body>
+    hello world
+    <br>
+    {{data}}
+    <br>
+    {{data['name']}}
+    <br>
+    {{data.name}}
+    <br>
+    mylist:{{data.mylist}}
+    <br>
+    mylist:{{data.mylist | li2}}
+    <br>
+    mylist:{{data.mylist[1]}}
+    <br>
+    count:{{data.mylist[1]+data.mylist[2]}}
+
+
+    <br>
+    {{'hello world' | upper}}
+    <br>
+    {{'hello world' | title}}
+    <br>
+    {{'hello_world' | replace('hello', 'hi')}}
+</body>
+</html>
